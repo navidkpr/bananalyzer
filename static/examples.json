@@ -6792,7 +6792,7 @@
       "name": {
         "type": "string"
       },
-      "content": {
+      "bio": {
         "type": "string"
       },
       "page_links": {
@@ -6815,8 +6815,12 @@
         "type": "json_match",
         "expected": {
           "name": "Asim Shrestha",
-          "content": "I'm a software engineer co-founding Reworkd, a YC S23 company extracting structured data from the web. We also made AgentGPT \ud83e\udd16",
+          "bio": "I'm a software engineer co-founding Reworkd, a YC S23 company extracting structured data from the web. We also made AgentGPT \ud83e\udd16",
           "page_links": [
+            { 
+              "title": "Reworkd",
+              "url": "https://reworkd.ai/"
+            },
             {
               "title": "Writing",
               "url": "https://asim-shrestha.com/writing"
