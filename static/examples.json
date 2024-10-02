@@ -6902,7 +6902,7 @@
               "type": "string",
               "description": "The content of the comment."
             }
-          },
+          }
         }
       }
     },
